@@ -1,7 +1,18 @@
+from notes import notes_menu
+from flashcard import flashcard_menu
+from quiz_generator import quiz_generator_menu
+from ai_summary import ai_summary_menu
+from daily_planner import daily_planner_menu
+from setting import setting_menu
+
+APP_NAME = "Papertrail"
+VERSION = "v0.1.0"
+AUTHOR = "Parth K"
+
 def show_menu():
     print("━" * 40)
-    print(f"         {PAPER TRAIL}")
-    print(f"     {Learn • Organize • Recall}")
+    print(f"         {APP_NAME}")
+    print(f"     Learn • Organize • Recall")
     print("━" * 40)
     print(f"Version: {VERSION}")
     print()
@@ -22,29 +33,26 @@ def main():
         choice = input("Choose an option: ")
 
         if choice == "1":
-            print("\nOpening Notes...\n")
+            notes_menu()
 
         elif choice == "2":
-            print("\nOpening Flashcards...\n")
+            flashcard_menu()
 
         elif choice == "3":
-            print("\nOpening Quiz Generator...\n")
+            quiz_generator_menu()
 
         elif choice == "4":
-            print("\nOpening AI Summary...\n")
+            ai_summary_menu()
 
         elif choice == "5":
-            print("\nOpening Daily Planner...\n")
+            daily_planner_menu()
 
         elif choice == "6":
             print("\nGoodbye! 👋")
             break
 
         elif choice == "7":
-            print("\nOpening Settings...\n")
-
-        elif choice == "8":
-            print("\nOpening Help...\n")
+            setting_menu()
 
         else:
             print("\nInvalid choice. Please try again.\n") 
