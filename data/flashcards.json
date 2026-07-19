@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Python Basics",
+        "cards": [
+            {
+                "question": "What does print() do?",
+                "answer": "Displays output to the console",
+                "correct_count": 0,
+                "incorrect_count": 0
+            },
+            {
+                "question": "What is a variable?",
+                "answer": "A named container for storing data",
+                "correct_count": 0,
+                "incorrect_count": 0
+            }
+        ],
+        "created_at": "19-07-2026 08:00 PM"
+    }
+]

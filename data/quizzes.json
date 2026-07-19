@@ -1,0 +1,19 @@
+[
+    {
+        "title": "Python Quiz",
+        "questions": [
+            {
+                "question": "Which keyword defines a function in Python?",
+                "options": ["func", "def", "function", "define"],
+                "answer_index": 1
+            },
+            {
+                "question": "What is the output of print(2 + 2)?",
+                "options": ["22", "4", "Error", "None"],
+                "answer_index": 1
+            }
+        ],
+        "source": "manual",
+        "created_at": "19-07-2026 08:00 PM"
+    }
+]
